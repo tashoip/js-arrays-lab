@@ -53,8 +53,40 @@ Complete Exercise 4 in the space below:
 */
 
 console.log(foods[1])
-let favFood = 'pizza'
+let favFood = foods[1]
 console.log([1],favFood)
 
 console.log('Exercise 4 result:', favFood);
+
+// splice(start)
+// splice(start, deleteCount)
+// splice(start, deleteCount, item0)
+// splice(start, deleteCount, item0, item1)
+// splice(start, deleteCount, item0, item1, /* …, */ itemN)
+
+/*
+Exercise 5: Insert an element between two others
+
+1) Insert the string 'tofu' between 'pizza' and 'cheeseburger' in the array.
+
+Complete Exercise 5 in the space below:
+*/
+
+foods.splice(2, 0, 'tofu')
+console.log(foods)
+
+console.log('Exercise 5 result:', foods);
+
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+
+foods.splice(1, 1, 'sushi', 'cupcake')
+console.log(foods)
+
+console.log('Exercise 6 result:', foods);
 
