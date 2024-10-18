@@ -105,3 +105,22 @@ console.log(foods.slice(1,3))
 const yummy = foods.slice(1,3)
 
 console.log('Exercise 7 result:', yummy);
+
+/*
+Exercise 8: Finding an index
+
+1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
+   `foods` array. 
+
+2) Assign it to a variable named `soyIdx`.
+
+Complete Exercise 8 in the space below:
+*/
+
+
+console.log(foods.indexOf('tofu'))
+const soyIdx = foods.indexOf('tofu')
+console.log('Exercise 8 result:', soyIdx);
+
+
+
