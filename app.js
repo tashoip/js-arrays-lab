@@ -8,7 +8,7 @@ Exercise 1 has been completed for you:
 
 const foods = [];  
 
-console.log('Exercise 1 result:', foods);
+console.log('Exercise 1 result:', foods)
 
 
 /*
@@ -21,7 +21,8 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
- foods ['pizza', 'cheeseburger']
+ foods[0] = 'pizza'
+ foods[1] = 'cheeseburger'
 
 console.log('Exercise 2 result:', foods);
 console.log(foods)
