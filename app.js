@@ -200,12 +200,25 @@ Exercise 12: FizzBuzz with arrays
 Complete Exercise 12 in the space below:
 */
 
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
 
+for (let i = 0; i < nums.length; i++){
+    console.log(nums[i])
+        if(nums[i] % 3 !== 0){
+            fizz.push(nums[i])
+        } else if(nums[i] % 5 !== 0){
+            buzz.push(nums[i])
+        } else if(nums[i] % 3, 5 !== 0){
+            fizzbuzz.push(nums[i])
+        }
+    }
 
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 
 
